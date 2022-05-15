@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập JSB6 - Vòng lặp</title>
+
+    <!-- BS4 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row my-5">
+            <div class="col-3">
+              <div class="nav flex-column nav-pills" id="v-pills-tab">
+                <a class="nav-link active" id="bai1-tab" data-toggle="pill" href="#bai1">Bài 1</a>
+                <a class="nav-link" id="bai2-tab" data-toggle="pill" href="#bai2">Bài 2</a>
+                <a class="nav-link" id="bai3-tab" data-toggle="pill" href="#bai3">Bài 3</a>
+                <a class="nav-link" id="bai4-tab" data-toggle="pill" href="#bai4">Bài 4</a>
+                <a class="nav-link" id="bai5-tab" data-toggle="pill" href="#bai5">Bài 5</a>
+              </div>
+            </div>
+            <div class="col-9">
+              <div class="tab-content" id="v-pills-tabContent">
+                <!-- Bài 1 -->
+                <div class="tab-pane fade show active" id="bai1">
+                    <h2>TÌM SỐ NGUYÊN DƯƠNG NHỎ NHẤT SAO CHO</h2>
+                    <h2>1 + 2 + ... + n > 10000</h2>
+                    <div onclick="timSoNguyen()" class="btn btn-info mt-3">Kết quả</div>
+                    <div id="displayNumber" class="alert alert-success mt-2 w-50"></div>
+                </div>
+
+                <!-- Bài 2 -->
+                <div class="tab-pane fade" id="bai2">
+                  2
+                </div>
+
+                <!-- Bài 3 -->
+                <div class="tab-pane fade" id="bai3">
+                  <h2>TÍNH GIAI THỪA</h2>
+                  <form>
+                    <input id="num" class="form-control w-50 mt-4" type="number" placeholder="Nhập n">
+                    <div onclick="tinhGiaiThua()" class="btn btn-info mt-3">Tính giai thừa</div>
+                    <div id="giaiThua" class="alert alert-success mt-2 w-50"></div>
+                  </form>
+                </div>
+                <div class="tab-pane fade" id="bai4">4</div>
+                <div class="tab-pane fade" id="bai4">5</div>
+              </div>
+            </div>
+          </div>
+    </div>
+    
+    <!-- BS4 -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+    <script src="./js/bai1.js"></script>
+    <script src="./js/bai3.js"></script>
+</body>
+</html>
