@@ -4,7 +4,7 @@
  * 
  * Khối 2: Các bước xử lý
  *  B1: Tạo hàm kiemTraSoNguyenTo
- *      + for (var i = 2; i < n; i++)
+ *      + for (var i = 2; i <= Math.sqrt(n); i++)
  *          nếu n % i == 0 => return false (không phải là số nguyên tố)
  *      + Còn không return true => là số nguyên tố
  *  B2: Tạo hàm inSoNguyenTo
@@ -38,7 +38,7 @@ function inSoNguyenTo() {
 }
 
 function kiemTraSoNguyenTo(n) {
-    for (var i = 2; i < n; i++) {
+    for (var i = 2; i <= Math.sqrt(n); i++) {
         if (n % i == 0) {
             return false;
         }
