@@ -27,7 +27,7 @@ function tao10Div() {
             taoDiv.style.backgroundColor = "blue";
         }
         taoDiv.style.color = "white";
-        taoDiv.style.padding = "15px";
+        taoDiv.style.padding = "10px";
         document.getElementById("divGroup").appendChild(taoDiv);
     }
 }   
