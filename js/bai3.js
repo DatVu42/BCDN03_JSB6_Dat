@@ -31,5 +31,5 @@ function tinhGiaiThua() {
         giaiThua *= i;
     }
 
-    document.getElementById("giaiThua").innerHTML = n + "! = " + giaiThua.toLocaleString();
+    document.getElementById("giaiThua").innerHTML = n + "! = " + giaiThua.toExponential(15);
 }

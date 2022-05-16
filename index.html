@@ -45,9 +45,7 @@
                         <input id="numN" class="form-control" type="number" placeholder="Nhập số n">
                       </div>
                     </div>
-                    
-                    
-                    
+                                        
                     <div onclick="tinhTong()" class="btn btn-info mt-3">Tính tổng</div>
                     <div id="tong" class="alert alert-success w-50"></div>
                   </div>
@@ -67,13 +65,18 @@
                 <div class="tab-pane fade" id="bai4">
                   <h2>CHƯƠNG TRÌNH IN RA 10 THẺ DIV</h2>
                   <div onclick="tao10Div()" class="btn btn-info mt-3">Tạo thẻ Div</div>
-                  <div id="divGroup" class="group mt-3">
-
-                  </div>
+                  <div id="divGroup" class="group mt-3"></div>
                 </div>
 
                 <!-- Bài 5 -->
-                <div class="tab-pane fade" id="bai4">5</div>
+                <div class="tab-pane fade" id="bai5">
+                  <h2>IN SỐ NGUYÊN TỐ</h2>
+                  <div class="form mt-5">
+                    <input id="number" class="form-control w-25" type="number" placeholder="Nhập số n">
+                    <div onclick="inSoNguyenTo()" class="btn btn-info mt-3">In số nguyên tố</div>
+                    <div id="hienThiSNT" class="alert alert-success w-75"></div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -87,5 +90,6 @@
     <script src="./js/bai2.js"></script>
     <script src="./js/bai3.js"></script>
     <script src="./js/bai4.js"></script>
+    <script src="./js/bai5.js"></script>
 </body>
 </html>
